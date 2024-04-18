@@ -1,0 +1,537 @@
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.menu-items {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social-icons {
+    height: 30px;
+    width: 30px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.social-icon {
+    height: 20px;
+
+}
+
+.social-alignment {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.lorem-ipsum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.name-box {
+    position: absolute;
+    top: 350px;
+    left: 3%;
+    height: 50px;
+    width: 220px;
+    background-image: linear-gradient(to right, black, gray);
+    text-align: center;
+}
+
+.name {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.bottom-section {
+    height: 100%;
+    width: 100%;
+    background-color: #9c9c9c;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding-left: 20px;
+}
+
+.page-2 {
+    background-color: #e3e1e1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.bottom-alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.bottom-image {
+    height: 150px;
+    width: 220px;
+}
+
+.bottom-heading {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.bottom-description {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.button {
+    color: #ffffff;
+    background-color: black;
+    font-family: "Roboto";
+    font-size: 12px;
+    border-width: 0px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.left {
+    text-align: left;
+    padding-right: 10px;
+}
+
+.center {
+    text-align: center;
+    padding: 5px;
+}
+
+.right {
+    text-align: right;
+    padding-left: 10px;
+}
+
+@media (max-width:480px) {
+    .logo {
+        height: 25px;
+    }
+
+    .menu-items {
+        font-size: 8px;
+        margin-left: 1px;
+    }
+
+    .social-icons {
+        height: 18px;
+        width: 18px;
+        margin-left: 3px;
+    }
+
+    .social-icon {
+        height: 8px;
+    }
+
+    .lorem-ipsum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .name-box {
+        position: absolute;
+        top: 150px;
+        left: 3%;
+        height: 20px;
+        width: 100px;
+
+    }
+
+    .name {
+        font-size: 10px;
+
+    }
+
+    .bottom-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .description {
+
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    .page-2 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .heading {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .bottom-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .bottom-heading {
+        font-size: 8px;
+
+    }
+
+    .bottom-description {
+        font-size: 8px;
+    }
+
+    .button {
+        font-size: 8px;
+        padding: 3px 8px;
+    }
+}
+
+@media (min-width:480px) and (max-width:576px) {
+    .logo {
+        height: 50px;
+    }
+
+    .menu-items {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .social-icons {
+        height: 25px;
+        width: 25px;
+        margin-left: 3px;
+    }
+
+    .social-icon {
+        height: 15px;
+    }
+
+    .lorem-ipsum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .name-box {
+        position: absolute;
+        top: 300px;
+        left: 15%;
+        height: 30px;
+        width: 120px;
+
+    }
+
+    .name {
+        font-size: 15px;
+
+    }
+
+    .bottom-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .description {
+
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .page-2 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .heading {
+        font-size: 20px;
+        padding: 12px;
+    }
+
+    .bottom-image {
+        height: 100px;
+        width: 120px;
+    }
+
+    .bottom-heading {
+        font-size: 12px;
+
+    }
+
+    .bottom-description {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width:576) and (max-width:768px) {
+    .logo {
+        height: 100px;
+    }
+
+    .menu-items {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    .social-icons {
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    .social-icon {
+        height: 40px;
+    }
+
+    .lorem-ipsum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .name-box {
+        position: absolute;
+        top: 500px;
+        left: 15%;
+        height: 60px;
+        width: 250px;
+
+    }
+
+    .name {
+        font-size: 25px;
+
+    }
+
+    .bottom-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .description {
+
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .page-2 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .heading {
+        font-size: 25px;
+        padding: 25px;
+    }
+
+    .bottom-image {
+        height: 200px;
+        width: 250px;
+    }
+
+    .bottom-heading {
+        font-size: 20px;
+
+    }
+
+    .bottom-description {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width:768) and (max-width:992px) {
+    .lorem-ipsum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .name-box {
+        position: absolute;
+        top: 700px;
+        left: 10%;
+        height: 80px;
+        width: 300px;
+
+    }
+
+    .name {
+        font-size: 32px;
+
+    }
+}
+
+@media (min-width:1200px) {
+    .logo {
+        height: 150px;
+    }
+
+    .menu-items {
+        font-size: 30px;
+        margin-left: 8px;
+    }
+
+    .social-icons {
+        height: 80px;
+        width: 80px;
+        margin-left: 12px;
+    }
+
+    .social-icon {
+        height: 60px;
+    }
+
+    .lorem-ipsum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .name-box {
+        position: absolute;
+        top: 600px;
+        left: 10%;
+        height: 80px;
+        width: 300px;
+
+    }
+
+    .name {
+        font-size: 32px;
+
+    }
+
+    .bottom-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .description {
+
+        font-size: 25px;
+        padding-left: 18px;
+    }
+
+    .page-2 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .heading {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .bottom-image {
+        height: 250px;
+        width: 320px;
+    }
+
+    .bottom-heading {
+        font-size: 25px;
+
+    }
+
+    .bottom-description {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 15px 30px;
+    }
+}
